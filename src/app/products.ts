@@ -24,5 +24,11 @@ export interface Product {
       name: 'Phone Standard',
       price: 299,
       description: ''
+    },
+    {
+      id: 4,
+      name: 'Phone Sumsung',
+      price: 999,
+      description: ''
     }
   ];

@@ -8,9 +8,11 @@ import { Product } from '../products';
 })
 export class ProductAlertsComponent implements OnInit {
 
-  @Input() product!: Product; // this product will receive from parent component
-  @Output() notify = new EventEmitter(); // this function will pass to parent component
-  constructor() { }
+  @Input() product!: Product; // this product will receive from parent component (product-list component)
+  @Output() notify = new EventEmitter(); // this function will pass data to parent component
+  constructor() { 
+
+  }
 
   ngOnInit(): void {
   }
